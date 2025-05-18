@@ -62,7 +62,7 @@ body {
     -webkit-text-stroke: 1px #fff;
     position: fixed;
     top: 100px;
-    right: 27px;
+    right: 35px;
     display: flex;
     flex-direction: column;
 }
