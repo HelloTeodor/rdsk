@@ -50,26 +50,15 @@
                 </div>
             </div>
         </div>
-        <div class="circleContainer">
-            <div class="circle">
-                <audio 
-                    id="player" 
-                    src="https://stream.hardcoreradio.nl:9000/hcr.mp3" 
-                    type="audio/mpeg" 
-                    autoplay>
-                </audio>
-                <button 
-                    class="play"
-                    onclick="document.getElementById    ('player').play()">▶
-                </button>
-                <button 
-                    class="pause" 
-                    onclick="document.getElementById    ('player').pause()">⏸
-                </button>
-                <button class="plus">+</button>
-                <button class="minus">-</button>
-                <div class="smallCircle"></div>
-            </div>
+        <div class="player">
+            <audio 
+            id="player" 
+            src="https://stream.hardcoreradio.nl:9000/hcr.mp3" 
+            type="audio/mpeg" 
+            controls>
+        </audio>
+        </div>
+        
     </div>
 </body>
 </html>
