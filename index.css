@@ -175,15 +175,15 @@ h1{
 }
 
 .circle {
-    width: 200px;
+    width: 165px;
     background-color: rgb(162, 144, 170);
-    height: 200px;
+    height: 165px;
     border-radius: 50%;
     position: relative;
 }
 
 button {
-    font-size: 2.5rem;
+    font-size: 2rem;
     border: none;
     background-color: transparent;
     color: rgb(35, 28, 38);
@@ -191,25 +191,25 @@ button {
 
 .play {
     position: absolute;
-    top: 10px;
-    left: 80px;
+    top: 5px;
+    left: 68px;
 }
 
 .pause {
     position: absolute;
-    bottom: 10px;
-    left: 83px;
+    bottom: 5px;
+    left: 68px;
 }
 
 .plus {
     position: absolute;
-    bottom: 82px;
-    left: 10px;
+    bottom: 68px;
+    left: 5px;
 }
 
 .minus {
     position: absolute;
-    bottom: 80px;
+    bottom: 67px;
     right: 10px;
 }
 
@@ -219,6 +219,6 @@ button {
     background-color: rgb(35, 28, 38);
     border-radius: 50%;
     position: absolute;
-    top: 70px;
-    left: 75px;
+    top: 56px;
+    left: 59px;
 }
