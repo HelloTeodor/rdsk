@@ -8,49 +8,68 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&family=Bebas+Neue&display=swap" rel="stylesheet">
-    
 </head>
 <body>
-    <h1>RDSK20-FM</h1>
-    <div class="HARDCORE">
-        <p class="first">HARDCORE</p>
-        <p class="second">HARDCORE</p>
-        <p class="second">HARDCORE</p>
-        <p class="second">HARDCORE</p>
-    </div>
-    <div class="emergency">
-        <p>E</p>
-        <p>M</p>
-        <p>E</p>
-        <p>R</p>
-        <p>G</p>
-        <p>E</p>
-        <p>N</p>
-        <p>C</p>
-        <p>Y</p>
-    </div>
-    <div class="police">
-        <p>9</p>
-        <p>1</p>
-        <p>1</p>
-    </div>
-    <div class="power">
-        <p>P</p>
-        <p>O</p>
-        <p>W</p>
-        <p>E</p>
-        <p>R</p>
-    </div>
-    <div class="year">
-        <p>2005 =============</p>
-    </div>
-    <div class="mainContainer">
-        <audio id="player" src="https://stream.hardcoreradio.nl:9000/hcr.mp3" type="audio/mpeg" autoplay></audio>
-  <div>
-    <button onclick="document.getElementById('player').play()">▶️ Play</button>
-    <button onclick="document.getElementById('player').pause()">⏸ Pause</button>
-  </div>
-    </div>
+    <div class="musicPlayer">
+        <div class="picture">
+            <div class="imgContainer">
+                <img src="IMG_4067-2.webp" alt="">
+                <h1>RDSK20-FM</h1>
+                <p class="live">LIVE THE MUSIC</p>
+                <div class="HARDCORE">
+                    <p class="first">HARDCORE</p>
+                    <p class="second">HARDCORE</p>
+                    <p class="second">HARDCORE</p>
+                    <p class="second">HARDCORE</p>
+                </div>
+                <div class="emergency">
+                    <p>E</p>
+                    <p>M</p>
+                    <p>E</p>
+                    <p>R</p>
+                    <p>G</p>
+                    <p>E</p>
+                    <p>N</p>
+                    <p>C</p>
+                    <p>Y</p>
+                </div>
+                <div class="police">
+                    <p>9</p>
+                    <p>1</p>
+                    <p>1</p>
+                </div>
+                <div class="power">
+                    <p>P</p>
+                    <p>O</p>
+                    <p>W</p>
+                    <p>E</p>
+                    <p>R</p>
+                </div>
+                 <div class="year">
+                    <p>2005 =============</p>
+                </div>
+            </div>
+        </div>
+        <div class="circleContainer">
+            <div class="circle">
+                <audio 
+                    id="player" 
+                    src="https://stream.hardcoreradio.nl:9000/hcr.mp3" 
+                    type="audio/mpeg" 
+                    autoplay>
+                </audio>
+                <button 
+                    class="play"
+                    onclick="document.getElementById    ('player').play()">▶
+                </button>
+                <button 
+                    class="pause" 
+                    onclick="document.getElementById    ('player').pause()">⏸
+                </button>
+                <button class="plus">+</button>
+                <button class="minus">-</button>
+                <div class="smallCircle"></div>
+            </div>
     </div>
 </body>
 </html>
