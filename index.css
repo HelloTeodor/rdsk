@@ -10,7 +10,7 @@ body {
 
 .musicPlayer {
     width: 350px;
-    height: 700px;
+    height: 90%;
     background-color: rgb(35, 28, 38);
     border-radius: 10px;
     border: none;
